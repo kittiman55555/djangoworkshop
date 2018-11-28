@@ -19,5 +19,5 @@
 <h5>$ python manage.py migrate</h5>
 
 <h3>run project</h3>
-<h5>python manage.py runserver</h5>
+<h5>$ python manage.py runserver</h5>
 
