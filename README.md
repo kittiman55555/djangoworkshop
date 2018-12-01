@@ -12,7 +12,7 @@
 <h5>pip install django</h5>
 <h5>pip freeze  //check packgage </h5>
 <h3>Create Django Project</h3>
-<h5>1. python .\Scripts\django-admin.py startproject mysite  <strong>If not used</strong>django-admin startproject mysite</h5>
+<h5>1. python .\Scripts\django-admin.py startproject mysite  <strong>If not used</strong>     django-admin startproject mysite</h5>
 <h5>2. cd mysite </h5>
 <h5>3. python manage.py makemigrations</h5>
 <h5>4. python manage.py migrate</h5>
