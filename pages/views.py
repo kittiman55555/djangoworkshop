@@ -10,4 +10,4 @@ def about(request):
     return render(request, 'pages/about.html')
 
 def listing(request):
-    return render(request, 'listing/listing.html')
+    return render(request, 'listings/listings.html')
