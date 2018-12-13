@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     #custom
-    'realtors','listings',
+    'realtors','listings','accounts',
 
 ]
 
@@ -144,3 +144,9 @@ STATICFILES_DIRS = [
 #mefia folder setting
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+    
+}
