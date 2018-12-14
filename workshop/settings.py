@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     #custom
-    'realtors','listings','accounts',
+    'realtors','listings','accounts','contacts',
 
 ]
 
